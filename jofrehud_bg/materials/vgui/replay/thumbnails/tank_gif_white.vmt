@@ -1,0 +1,19 @@
+"unlitgeneric"
+{
+	"$basetexture" "vgui\replay\thumbnails\tank_gif_white"	
+	"$vertexcolor" 1
+	$mod2x                    "0"
+	"$vertexalpha" "1"	
+	"$ignorez" 1
+	"$alpha" "1.0"
+	"$translucent" 1
+	"Proxies" 
+	{ 
+		"AnimatedTexture" 
+		{ 
+			"animatedTextureVar" "$basetexture" 
+			"animatedTextureFrameNumVar" "$frame" 
+			"animatedTextureFrameRate" "35" 
+		}
+	}
+}
